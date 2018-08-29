@@ -1,0 +1,10 @@
+整个流程：
+$ git add menudd //其中 menudd 是一个目录 也可以是文件 会自动更新有修改的文件
+(git add .注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）)
+
+然后 $ git commit -m "asdf" //“asdf”是更新注释
+
+最后 $ git push origin master 或
+git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+
+ok完成 更新成功
